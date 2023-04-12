@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/Zig-Zag.svg);
+}
+
+img {
+    float: right;
+    padding: 20px;
+}
+
+h2 {
+    border: 10px #eee;
+    border-style: solid;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p {
+    padding: 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+article {
+    border-top: 5px #a38073;
+    border-bottom: 5px #a38073;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    background-color: #eee;
+}
+
+.layout {
+    max-width: 1000px;
+    margin: auto;
+}
+
+article, .layout {
+    float: left;
+    background-color: #eee;
+}
+
+header {
+    float: none;
+    clear: both;
+    background: #2a9d8f;
+    padding-bottom: 50px;
+    padding-right: 1000px;
+}
+
+aside {
+    float: left;
+    background: #e9c46a;
+    padding-bottom: 300px;
+    padding-right: 120px;
+}
+
+main {
+    float: left;
+    clear: right;
+    background: #f4a261;
+    padding-bottom: 300px;
+    padding-right: 772px;
+}
+
+footer {
+    clear: both;
+    background: #e76f51;
+    padding-bottom: 50px;
+}
